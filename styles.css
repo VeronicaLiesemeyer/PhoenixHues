@@ -1,0 +1,127 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #604b41;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  margin: 0;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  font-size: 1.1em;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #0058F5;
+  text-decoration: none;
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(0, 88, 245, .3)
+}
+section {
+  border: 7px solid #FFCAC9;
+  position: relative;
+}
+.main-header {
+  background-color: rgba(0,88,245);
+  background-image: url("images/background.jpg");
+  background-blend-mode: lighten;
+  background-size: cover;
+  padding-bottom: 30px;
+  box-shadow: 0 4px 7px 0.5px #5295ff;
+}
+html {
+background-color: #DDF5F6;
+}
+.phoenix-hues {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: 'Open Sans' 00;
+  font-weight: bold;
+  color: #fff;
+}
+.text-gradient {
+  background-color: #fff;
+  background-image: linear-gradient(#0058F5, #FFCAC9 60%);
+  -webkit-background-clip: text;
+  -moz-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.phoenix-hues-large {
+  font-size: 4em;
+}
+.content-section {
+  margin: 2em;
+  text-align: center;
+}
+.container {
+  margin: auto;
+  padding: 1.5;
+}
+.section-header {
+  font-family: "";
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.5em;
+}
+.BtN{
+font-size: 18px;
+font-weight: bold;
+background: #0058F5;
+width: 160px;
+padding: 20px;
+text-align: center;
+align-items: center;
+text-decoration: none;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+.BtN:hover, .BtN:focus,.BtN:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+}
+.month {
+  text-align: center;
+  font-size: 30px;
+  padding: 25px;
+  border: 1px solid #FFCAC9;
+}
+table, th, td {
+  width: 100%;
+  table-layout: fixed;
+  text-align:center;
+  font-size: 22px;
+  border-collapse: collapse;
+  border: 1px solid #0058F5;
+}
+tr, th, td{
+  padding: 15px;
+}
+th{
+  background: #FFCAC9;
+}
+td:hover{
+  background: #FFCA;
+}
